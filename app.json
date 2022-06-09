@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "application-2",
-    "slug": "application-2",
+    "name": "Cloud Vision",
+    "slug": "cloudVision",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "https://i.ibb.co/bL2B78X/Group-10.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "https://i.ibb.co/2Wnc5cG/Group-8.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FFFFFF"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,12 +21,22 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "https://i.ibb.co/bL2B78X/Group-10.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.rootrsk.cloudVision",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "App Wants Your Permission to Access Photos."
+        }
+      ]
+    ]
   }
 }
